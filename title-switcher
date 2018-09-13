@@ -1,0 +1,20 @@
+//onClick function in html file will trigger the code
+function switchTitle(title) {
+			if(title.id === "title1"){
+				document.getElementById("currentPage").innerHTML=title1;
+      } else if (title.id === "title2"){
+				document.getElementById("currentPage").innerHTML=title2;
+			} else if (title.id === "title3"){
+				document.getElementById("currentPage").innerHTML=title3;
+			} else if (title.id === "title4"){
+				document.getElementById("currentPage").innerHTML=title4;
+			} else if (title.id === "title5"){
+				document.getElementById("currentPage").innerHTML=title5;
+			} else if (title.id === "title6"){
+				document.getElementById("currentPage").innerHTML=title6;
+			};
+		};
+    //switches back to original title
+		function normal() {
+			document.getElementById("curPage").innerHTML = "title1";
+		}
